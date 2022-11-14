@@ -11,6 +11,7 @@ r = sr.Recognizer()
 
 
 def record_audio(ask = False):
+    # global voice_data
     with sr.Microphone() as source:
         # print("Say something!")
         if ask:
